@@ -11,6 +11,9 @@ public class Test01_GET {
 	void Test_01() {
 	//Response responce=RestAssured.get("https://reqres.in/api/users?page=2");
 		Response responce=get("https://reqres.in/api/users?page=2");
+		System.out.println("this is my first code with git");
+		System.out.println("this is my first code with git2");
+		System.out.println("this is my first code with git3");
 	System.out.println(responce.getStatusCode());
 	System.out.println(responce.getStatusLine());
 System.out.println(responce.asString());	
